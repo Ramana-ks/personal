@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+background-color: rgba(10, 10, 10, 0.87);
+width: 100vw;
+height: 100vh;
+}
+
+.banner header span{
+border: solid 2px black;
+padding: 50px;
+background-color: black;
+justify-content: space-evenly;
+display: flex;
+
+
+top: 0;
+font-weight: bold;
+
+}
+.banner span a{
+color: white;
+text-decoration: none;
+
+}
+.banner span a:hover{
+color: blue;
+transition: 0.5 ease;
+text-decoration: underline;
+
+}
+
+
+.banner span h1{
+    color:white;
+   padding-right: 500px;
+   background-color: rgb(174, 30, 179);
+   background:linear-gradient(140deg,rgb(7, 172, 194),rgba(172, 21, 152, 0.904)80%);
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+background-size: 500% 500%;
+animation:joes 2s ease infinite;
+
+
+}
+@keyframes joes {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%
+    {
+        background-position: 0%;
+    }
+    
+}
+
+.About-content p{
+
+    font-size: 20px;
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+   
+    
+
+}
+.About-content p r{
+
+    color: red;
+}
+
+.About-content ri a{
+    color: white;
+ }
+.About-content ri a:hover{
+    color:red;
+     }
+.About-content ri{
+    border: 1px solid blue;
+    background-color:rgb(18, 156, 202);
+    border-radius:18px;
+    padding: 8px;
+    margin-left: 250px;
+}
+.About-content ri .btn{
+    text-decoration: none;
+    
+ }
+
+
+.About-content span{
+    font-size: 35px;
+    font-weight: bold;
+    word-spacing: 1px;
+    color: blue;
+}
+.About-content h1{
+    font-size: 35px;
+    font-weight: bold;
+    
+
+    }
+.social-icons span a img{
+    display: flex;
+    padding: 20px;
+}
+.social-icons a{
+    transform: 0.3 ease;
+
+
+
+
+}
+.About-content h1{
+    color: white;
+}
+.social-icons a:hover{
+    color: white;
+    transform: scale(1.3) translateY(-2px);
+
+    
+}
+.About-img img{
+
+        position:relative;
+        width: 500px;
+        height: 500px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-left: 50px;
+       }
+
+.About{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+gap: 10rem;
+padding-top: 200px;
+
+padding-bottom: 100px;
+border-color: white;
+
+}
+@keyframes cursor {
+    to{
+        border-left: 2px solid ;
+    }
+    
+}
+.projects-content span h1{
+    color:white;
+   padding-right: 500px;
+
+}
+
+.projects-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+gap: 10rem;
+
+
+
+}
+.box-1{
+    border: 2px solid;
+  width: 300px;
+  height: 200px;
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+
+
+}
+.box-1 a img{
+    padding-left:100px;
+    padding-bottom:5px
+}
+.box-2 a img{
+    padding-left:100px;
+    padding-bottom:5px
+}
+.box-3 a img{
+    padding-left:100px;
+    padding-bottom:5px
+}
+
+    
+.title{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    padding: 30px;   background-color: rgb(248, 25, 25);
+    background:linear-gradient(140deg,rgb(7, 172, 194),rgba(182, 231, 3, 0.904)80%);
+ color: transparent;
+ background-clip: text;
+ -webkit-background-clip: text;
+ background-size: 500% 500%;
+ animation:joes 2s ease infinite;
+ 
+ 
+ }
+ @keyframes joes {
+     0%{
+         background-position: 0%;
+     }
+     50%{
+         background-position: 100%;
+     }
+     100%
+     {
+         background-position: 0%;
+     }
+     
+ }
+ 
+
+.box-1 h3{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding-top:40px;
+    border-radius: 5px;
+}
+.box-2 h3{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding-top:40px;
+}
+
+.box-3 h3{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding-top:40px;
+    
+}
+
+
+
+.box-2{
+    border: 2px solid;
+    width: 300px;
+    height: 200px;
+      background-image: url(lap.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;  
+    
+      padding-bottom: 40px;
+     
+    
+  }
+
+.box-3{
+    border: 2px solid;
+    width: 300px;
+    height: 200px;
+    
+      background-image: url(web.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;    
+  
+  }
+
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align:center ;
+    font-size: 60px;
+}
+h3{
+    margin: 5px;
+
+}
+.Skills{
+    width: 500px;
+    margin: 50px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25 ),0 10px 10px rgba(18, 179, 98, 0.527);
+}
+.Skills li{
+    margin: 20px 0;
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);  
+}
+.bar:hover{
+    box-shadow: 0 14px 20px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+} 
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 80%;
+    animation: css 3s;
+}
+.Javascript{
+    width: 70%;
+    animation:Javascript 3s;
+}
+.React{
+    width:50%;
+    animation:React 3s;
+}
+@keyframes  html{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes  css{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes  React{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 50%;
+    }
+} 
+.contact{
+    padding-top: 90px;
+}
+.contact h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+.contact h2 span{
+    color: blue;
+}
+.contact form{
+max-width:600px ;
+margin: 1rem auto;
+text-align: center;
+
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+width: 100%;
+padding: 1.5rem;
+ font-size: 1.6rem;
+color:blue;
+background-color: #15161a;
+border-radius: 0.8rem;
+margin: 1rem 0;
+resize: none;
+}
+.contact form ri .btn{
+    border: 1px solid blue;
+    background-color:rgb(18, 156, 202);
+    border-radius:18px;
+    padding: 10px;
+
+
+}
+.contact form ri .btn{
+    text-decoration: none;
+}
+
+.contact form  ri a{
+    color: white;
+ }
+ .contact form  ri a:hover{
+    color:red;
+ }
+ .footer{
+    background-color: rgb(17, 98, 190);
+ }
+.footer .buttom span{
+    
+    padding: 5px;
+  
+    justify-content:center;
+    display: flex;
+    
+    
+}
+.footer .buttom span a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+}
+.footer .buttom span a:hover{
+text-decoration: underline;
+}
+.social-icons span{
+    display: flex;
+    justify-content: center;
+   
+}
+.footer h4{
+    text-align: center;
+    color: white;
+}
+.footer{
+    margin-top:200px;
+}
+@keyframes cursor {
+    to{
+        border-left: 2px solid blue;
+    }
+    
+}
