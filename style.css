@@ -319,6 +319,15 @@ h3{
     float: left;
     background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
 
+
+}
+.titlee{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.titlee a{
+    color: blue;
 }
 .html{
     width: 90%;
